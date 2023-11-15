@@ -35,8 +35,8 @@ body {
   font-size: 24px;
   line-height: 3;
 }
-header {
-  background: orangered;
+header .banner {
+  background: #38B6FF;
 }
 main {
   background: darkslateblue;
