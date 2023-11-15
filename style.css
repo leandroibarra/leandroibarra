@@ -71,12 +71,20 @@ footer {
   padding: 0;
   text-align: left;
 }
+.left-sidebar ul li {
+  align-items: center;
+  display: flex;
+}
 .left-sidebar ul li a {
   color: #464A4E;
 }
 
 .right-sidebar {
   background: forestgreen;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
 }
 
 .material-symbols-outlined {
