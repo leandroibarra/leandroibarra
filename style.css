@@ -30,9 +30,10 @@
 }
 /* COLORS and FONTS */
 body {
-  color: white;
+  color: #737373;
   text-align: center;
   font-family: 'Comfortaa', sans-serif;
+  font-weight: 300;
   font-size: 24px;
   line-height: 3;
 }
@@ -44,10 +45,8 @@ header .title {
   line-height: 2;
 }
 header .title h1 {
+  font-weight: 700;
   text-transform: uppercase;
-}
-header .title h3 {
-  color: #737373;
 }
 header .title hr {
   background-color: #464A4E;
@@ -62,9 +61,12 @@ main {
 footer {
   background: deeppink;
 }
-.left-sidebar {
-  background: dodgerblue;
+.left-sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+
 .right-sidebar {
   background: forestgreen;
 }
