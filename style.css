@@ -67,13 +67,15 @@ main {
 footer {
   background: deeppink;
 }
+.left-sidebar {
+  text-align: left;
+}
 .left-sidebar ul {
   color: #464A4E;
   font-size: 18px;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: left;
 }
 .left-sidebar ul li {
   align-items: center;
@@ -83,7 +85,21 @@ footer {
   color: #464A4E;
 }
 .left-sidebar h4 {
+  color: #4A454B;
+  line-height: 2;
+  margin-top: 4rem;
   text-transform: uppercase;
+}
+.left-sidebar h4,
+.left-sidebar h5,
+.left-sidebar h6,
+.left-sidebar p {
+  line-height: 2;
+}
+.left-sidebar h4,
+.left-sidebar h5,
+.left-sidebar h6 {
+  font-weight: 700;
 }
 
 .right-sidebar {
