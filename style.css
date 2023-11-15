@@ -8,6 +8,8 @@
 .content {
   display: flex;
   flex-direction: column;
+}
+.content {
   padding: 1rem;
 }
 @media all and (min-width: 768px) {
@@ -49,6 +51,9 @@ header .title h1 {
   font-weight: 700;
   text-transform: uppercase;
 }
+header .title h3 {
+  font-weight: 300;
+}
 header .title hr {
   background-color: #464A4E;
   height: 3px;
@@ -65,7 +70,6 @@ footer {
 .left-sidebar ul {
   color: #464A4E;
   font-size: 18px;
-  line-height: 2;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -77,6 +81,9 @@ footer {
 }
 .left-sidebar ul li a {
   color: #464A4E;
+}
+.left-sidebar h4 {
+  text-transform: uppercase;
 }
 
 .right-sidebar {
