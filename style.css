@@ -1,9 +1,8 @@
-#parentContainer {
-  position: relative;
-}
-#childContainer {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.container {
+  height: 300px; 
+  width: 645px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  border: 2px solid black;
 }
