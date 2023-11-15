@@ -4,6 +4,30 @@
   padding: 0;
   margin: 0;
 }
+.container, 
+.content {
+  display: flex;
+  flex-direction: column;
+}
+@media all and (min-width: 768px) {
+  .content {
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  main {
+      flex: 2;
+      order: 2;
+      min-height: 80vh;
+  }
+  .left-sidebar {
+      order: 1;
+      flex: 1;
+  }
+  .right-sidebar {
+      flex: 1;
+      order: 3;
+  }
+}
 /* COLORS and FONTS */
 body {
   color: white;
