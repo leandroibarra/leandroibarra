@@ -1,11 +1,28 @@
-div {
-  border: solid 3px;
-  padding: 1em;
-  max-width: 75%;
+/* RESET */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 8em;
+/* COLORS and FONTS */
+body {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  line-height: 3;
+}
+header {
+  background: orangered;
+}
+main {
+  background: darkslateblue;
+}
+footer {
+  background: deeppink;
+}
+.left-sidebar {
+  background: dodgerblue;
+}
+.right-sidebar {
+  background: forestgreen;
 }
