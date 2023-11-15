@@ -38,17 +38,17 @@ body {
 header .banner {
   background: #38B6FF;
 }
-header title {
+header .title {
   color: #000000;
   line-height: 2;
 }
-header title h1 {
+header .title h1 {
   text-transform: uppercase;
 }
-header title h3 {
+header .title h3 {
   color: #737373;
 }
-header title hr {
+header .title hr {
   background-color: #464A4E;
   height: 3px;
   margin: 0 auto 10px;
