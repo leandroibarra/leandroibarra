@@ -63,8 +63,24 @@ header .title hr {
   width: 80%;
 }
 main {
+  line-height: 1.5;
   padding-left: 1rem;
+  text-align: left;
 }
+main h2 {
+  color: #4A454B;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+main p {
+  color: #737373;
+  font-size: 18px;
+}
+main p.description {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
 footer {
   background: deeppink;
 }
