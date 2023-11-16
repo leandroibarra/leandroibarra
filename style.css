@@ -63,12 +63,13 @@ header .title hr {
   width: 80%;
 }
 main {
-  background: darkslateblue;
+  padding-left: 1rem;
 }
 footer {
   background: deeppink;
 }
 .left-sidebar {
+  padding-right: 1rem;
   text-align: left;
 }
 .left-sidebar ul {
@@ -106,12 +107,11 @@ footer {
   font-size: 20px;
 }
 
-.right-sidebar {
-  background: forestgreen;
-}
-
 .mr-1 {
   margin-right: 0.25rem;
+}
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .material-symbols-outlined {
