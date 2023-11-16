@@ -81,6 +81,28 @@ main p.description {
   margin-bottom: 4rem;
   margin-top: 2rem;
 }
+main ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+main ul li {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+main ul li h5 {
+  color: #737373;
+  font-weight: 300;
+}
+main ul li h4 {
+  color: #414042;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+main ul li p {
+  margin-bottom: 2rem;
+}
 
 footer {
   background: deeppink;
