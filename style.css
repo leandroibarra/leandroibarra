@@ -82,13 +82,17 @@ main p.description {
   margin-top: 2rem;
 }
 main ul {
-  list-style-type: none;
+  list-style-type: circle;
   margin: 0;
   padding: 0;
 }
 main ul li {
   margin-bottom: 2rem;
   margin-top: 2rem;
+}
+main ul li::marker {
+  color: #323B4C;
+  font-size: 1.2em;
 }
 main ul li h5 {
   color: #737373;
@@ -101,7 +105,7 @@ main ul li h4 {
   margin-top: 1rem;
 }
 main ul li p {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 footer {
