@@ -63,10 +63,19 @@ header .title hr {
   text-align: center;
   width: 80%;
 }
-header .title .language {
+header .language {
   position: absolute;
   right: 10px;
   top: 0;
+}
+header .language a {
+  color: #FFFFFF;
+}
+header .language a:last-child:before {
+  content: "/";
+}
+header .language .current {
+  pointer-events: none;
 }
 main {
   line-height: 1.5;
