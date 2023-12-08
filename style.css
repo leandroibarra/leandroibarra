@@ -64,6 +64,7 @@ header .title hr {
   width: 80%;
 }
 header .language {
+  color: #FFFFFF;
   position: absolute;
   right: 10px;
   top: 0;
@@ -71,10 +72,6 @@ header .language {
 header .language a {
   color: #FFFFFF;
   text-decoration: none;
-}
-header .language a:last-child:before {
-  content: "/";
-  padding-right: 5px;
 }
 header .language .current {
   pointer-events: none;
