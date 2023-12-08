@@ -70,12 +70,16 @@ header .language {
 }
 header .language a {
   color: #FFFFFF;
+  text-decoration: none;
 }
 header .language a:last-child:before {
   content: "/";
+  padding-right: 5px;
 }
 header .language .current {
   pointer-events: none;
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 main {
   line-height: 1.5;
