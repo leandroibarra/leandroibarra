@@ -63,15 +63,25 @@ header .title hr {
   text-align: center;
   width: 80%;
 }
+header .download,
 header .language {
   color: #FFFFFF;
   position: absolute;
   right: 10px;
   top: 0;
 }
+header .download {
+  left: 10px;
+  right: auto;
+}
+header .download a,
 header .language a {
   color: #FFFFFF;
   text-decoration: none;
+}
+header .download a,
+header .download a .material-symbols-outlined {
+  font-size: 30px;
 }
 header .language .current {
   pointer-events: none;
