@@ -98,7 +98,8 @@ main h2 {
   font-weight: 700;
   text-transform: uppercase;
 }
-main p {
+main p,
+main ul li ul li {
   color: #737373;
   font-size: 18px;
 }
