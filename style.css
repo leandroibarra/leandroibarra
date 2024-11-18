@@ -102,6 +102,8 @@ main p,
 main ul li ul li {
   color: #737373;
   font-size: 18px;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 main p.description {
   margin-bottom: 4rem;
